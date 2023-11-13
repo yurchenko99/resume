@@ -115,17 +115,17 @@ body {
 }
 
 a {
-    color: #556B2F;
+    color: #4b4949;
     text-decoration: none;
 }
 
 a:hover {
-    color: #00BFFF;
+    color: #777575;
     text-decoration: underline;
 }
 
 a:active {
-    color:#6e79fe;
+    color:#f8f8f8;
 }
 
 .container-fluid a {
@@ -160,21 +160,11 @@ a:active {
 .list {
     padding: 0px 20px;
     margin-bottom: 10px;
-    list-style: none;
+    /* list-style: none; */
 }
 
 .list li {
     color: #4b4949;
-}
-
-.list-bad {
-    padding: 0px 20px;
-    margin-bottom: 10px;
-}
-
-.list-bad li {
-    color: #4b4949;
-    list-style: none;
 }
 
 .table {
@@ -192,9 +182,8 @@ a:active {
     border: 1px solid #000;
 }
 
-.table th:nth-child(2),
-.table th:nth-child(3) {
-    color: #4b4949;
+.table th:nth-child(2) {
+    color: #666565;
 }
 
 .form-row {
